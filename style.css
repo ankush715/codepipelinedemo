@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.header {
+  background: #0a2a66;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 32px;
+}
+
+.role {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.contact {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.section {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.section h2 {
+  color: #0a2a66;
+  margin-bottom: 10px;
+}
+
+.section h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.company {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.strengths {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #fff;
+  background: #0a2a66;
+  margin-top: 30px;
+}
