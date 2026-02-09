@@ -1,6 +1,4 @@
-## index.html
 
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +9,7 @@
 </head>
 <body>
   <header class="header">
-    <h1>Ankush Bangade</h1>
+    <h1>Ankush Shyamkumar Bangade</h1>
     <p class="role">AWS Cloud Admin</p>
     <p class="contact">Nagpur, Maharashtra | 📧 abangade715@gmail.com | 📞 +91-9766503990</p>
   </header>
