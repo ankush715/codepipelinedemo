@@ -3,11 +3,11 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing dependencies
+      - echo "This is build phase... Zipping my webpage"
 
   build:
     commands:
-      - echo Build started
+      - echo "Deployed to S3"
       - echo Build completed
 
 artifacts:
